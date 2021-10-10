@@ -75,6 +75,13 @@ rfc
 
 yarn add npm i @material-ui/core @material-ui/icons -s
 
+yarn add react-router-dom -s
+
+https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+https://www.codecademy.com/articles/f1-u3-github-pages
 
 yarn add  gh-pages --save-dev
 
