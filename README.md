@@ -74,3 +74,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 rfc
 
 yarn add npm i @material-ui/core @material-ui/icons -s
+
+
+yarn add  gh-pages --save-dev
+
+yarn deploy 
+
+https://ultimatefergal.github.io/proto-pokedex/

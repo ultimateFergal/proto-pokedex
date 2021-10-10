@@ -14,9 +14,9 @@ export default function App() {
       <PersistGate loading={null} persistor={persistor}>
         <Router>
           <AppNavigator />
-          <Route exact path="/" component={Pokedex}></Route>
-          <Route exact path="/pokemon/:id" component={PokemonDetails}></Route>
-          <Route exact path="/favourites" component={Favourites}></Route>
+          <Route exact path="/proto-pokedex/" component={Pokedex}></Route>
+          <Route exact path="/proto-pokedex/pokemon/:id" component={PokemonDetails}></Route>
+          <Route exact path="/proto-pokedex/favourites" component={Favourites}></Route>
         </Router>   
       </PersistGate>
     </Provider>

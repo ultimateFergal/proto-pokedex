@@ -32,7 +32,7 @@ export default function PokemonCard(props) {
 
     return (
         <Grid item xs={12} sm={2}>
-            <Link to={`/pokemon/${id}`} className={classes.link}>
+            <Link to={`/proto-pokedex/pokemon/${id}`} className={classes.link}>
                 <Card className={classes.card}>
                     <CardMedia className={classes.cardMedia} image={image}></CardMedia>
                     <CardContent className={classes.cardContent}>
